@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing & Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Project-specific
+# (experiment chunks can be regenerated, but keep production chunks for reference)
+# Uncomment below if you want to ignore all generated chunks:
+# data/chunks/*.jsonl
+# data/chunks/experiment_summary.json

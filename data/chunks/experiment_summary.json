@@ -1,0 +1,242 @@
+{
+  "production": {
+    "label": "PRODUCTION: recursive | 500 tokens | overlap 50",
+    "total_chunks": 12,
+    "avg_tokens": 369.5,
+    "min_tokens": 112,
+    "max_tokens": 483,
+    "median_tokens": 466.0,
+    "by_source": {
+      "iade_politikasi.txt": {
+        "chunks": 1,
+        "avg_tokens": 466
+      },
+      "kargo_ve_teslimat.txt": {
+        "chunks": 2,
+        "avg_tokens": 295.5
+      },
+      "returns_en.txt": {
+        "chunks": 2,
+        "avg_tokens": 341
+      },
+      "shipping_policy.txt": {
+        "chunks": 2,
+        "avg_tokens": 341.5
+      },
+      "sss.txt": {
+        "chunks": 3,
+        "avg_tokens": 469.7
+      },
+      "urun_garantisi.txt": {
+        "chunks": 2,
+        "avg_tokens": 301.5
+      }
+    }
+  },
+  "experiments": [
+    {
+      "label": "recursive | chunk_size=256 | overlap=50",
+      "total_chunks": 26,
+      "avg_tokens": 197.5,
+      "min_tokens": 107,
+      "max_tokens": 252,
+      "median_tokens": 215.0,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 3,
+          "avg_tokens": 188.7
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 3,
+          "avg_tokens": 213.7
+        },
+        "returns_en.txt": {
+          "chunks": 4,
+          "avg_tokens": 195.5
+        },
+        "shipping_policy.txt": {
+          "chunks": 5,
+          "avg_tokens": 166.6
+        },
+        "sss.txt": {
+          "chunks": 7,
+          "avg_tokens": 229.9
+        },
+        "urun_garantisi.txt": {
+          "chunks": 4,
+          "avg_tokens": 175.8
+        }
+      }
+    },
+    {
+      "label": "recursive | chunk_size=500 | overlap=50",
+      "total_chunks": 12,
+      "avg_tokens": 369.5,
+      "min_tokens": 112,
+      "max_tokens": 483,
+      "median_tokens": 466.0,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 1,
+          "avg_tokens": 466
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 2,
+          "avg_tokens": 295.5
+        },
+        "returns_en.txt": {
+          "chunks": 2,
+          "avg_tokens": 341
+        },
+        "shipping_policy.txt": {
+          "chunks": 2,
+          "avg_tokens": 341.5
+        },
+        "sss.txt": {
+          "chunks": 3,
+          "avg_tokens": 469.7
+        },
+        "urun_garantisi.txt": {
+          "chunks": 2,
+          "avg_tokens": 301.5
+        }
+      }
+    },
+    {
+      "label": "recursive | chunk_size=1000 | overlap=50",
+      "total_chunks": 7,
+      "avg_tokens": 597.7,
+      "min_tokens": 396,
+      "max_tokens": 963,
+      "median_tokens": 553,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 1,
+          "avg_tokens": 466
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 1,
+          "avg_tokens": 541
+        },
+        "returns_en.txt": {
+          "chunks": 1,
+          "avg_tokens": 632
+        },
+        "shipping_policy.txt": {
+          "chunks": 1,
+          "avg_tokens": 633
+        },
+        "sss.txt": {
+          "chunks": 2,
+          "avg_tokens": 679.5
+        },
+        "urun_garantisi.txt": {
+          "chunks": 1,
+          "avg_tokens": 553
+        }
+      }
+    },
+    {
+      "label": "recursive | chunk_size=500 | overlap=50",
+      "total_chunks": 12,
+      "avg_tokens": 369.5,
+      "min_tokens": 112,
+      "max_tokens": 483,
+      "median_tokens": 466.0,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 1,
+          "avg_tokens": 466
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 2,
+          "avg_tokens": 295.5
+        },
+        "returns_en.txt": {
+          "chunks": 2,
+          "avg_tokens": 341
+        },
+        "shipping_policy.txt": {
+          "chunks": 2,
+          "avg_tokens": 341.5
+        },
+        "sss.txt": {
+          "chunks": 3,
+          "avg_tokens": 469.7
+        },
+        "urun_garantisi.txt": {
+          "chunks": 2,
+          "avg_tokens": 301.5
+        }
+      }
+    },
+    {
+      "label": "sentence | chunk_size=500 | overlap=50",
+      "total_chunks": 12,
+      "avg_tokens": 369.5,
+      "min_tokens": 96,
+      "max_tokens": 497,
+      "median_tokens": 465.5,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 1,
+          "avg_tokens": 466
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 2,
+          "avg_tokens": 295.5
+        },
+        "returns_en.txt": {
+          "chunks": 2,
+          "avg_tokens": 341
+        },
+        "shipping_policy.txt": {
+          "chunks": 2,
+          "avg_tokens": 341.5
+        },
+        "sss.txt": {
+          "chunks": 3,
+          "avg_tokens": 469.7
+        },
+        "urun_garantisi.txt": {
+          "chunks": 2,
+          "avg_tokens": 301.5
+        }
+      }
+    },
+    {
+      "label": "fixed | chunk_size=500 | overlap=50",
+      "total_chunks": 13,
+      "avg_tokens": 342.3,
+      "min_tokens": 16,
+      "max_tokens": 500,
+      "median_tokens": 466,
+      "by_source": {
+        "iade_politikasi.txt": {
+          "chunks": 2,
+          "avg_tokens": 241
+        },
+        "kargo_ve_teslimat.txt": {
+          "chunks": 2,
+          "avg_tokens": 295.5
+        },
+        "returns_en.txt": {
+          "chunks": 2,
+          "avg_tokens": 341
+        },
+        "shipping_policy.txt": {
+          "chunks": 2,
+          "avg_tokens": 341.5
+        },
+        "sss.txt": {
+          "chunks": 3,
+          "avg_tokens": 469.7
+        },
+        "urun_garantisi.txt": {
+          "chunks": 2,
+          "avg_tokens": 301.5
+        }
+      }
+    }
+  ]
+}

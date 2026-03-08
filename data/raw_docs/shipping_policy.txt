@@ -1,0 +1,117 @@
+ShopVista SHIPPING POLICY
+=========================
+Last updated: March 2026
+
+This page describes all shipping, delivery, and order tracking conditions for
+ShopVista Elektronik ve Yaşam A.Ş. (shopvista.com.tr).
+
+
+1. SHIPPING PARTNERS
+--------------------
+ShopVista works with the following carriers for domestic shipments in Turkey:
+
+  - Yurtiçi Kargo
+  - Aras Kargo
+  - MNG Kargo
+  - PTT Kargo (for remote areas and post-office pickup preference)
+
+For international shipments, we partner with DHL Express and UPS. Orders are automatically
+assigned to the carrier that provides the fastest delivery to your location.
+
+
+2. DELIVERY TIMEFRAMES
+-----------------------
+DOMESTIC (Turkey)
+  - Major cities (Istanbul, Ankara, Izmir, Bursa, Antalya, etc.) : 2–3 business days
+  - Other provinces                                               : 3–5 business days
+  - Remote / rural areas and island destinations                  : 5–7 business days
+
+INTERNATIONAL
+  - European countries          : 7–10 business days
+  - USA and Canada              : 10–15 business days
+  - Rest of the world           : 10–20 business days
+
+Business days are Monday through Friday, excluding public holidays. During peak periods
+(campaigns, holidays, etc.) delivery times may be extended; the updated estimated delivery
+date will appear in your order confirmation e-mail.
+
+
+3. SHIPPING RATES
+-----------------
+DOMESTIC
+
+  Order Value              | Shipping Fee
+  -------------------------|-------------
+  Below 500 TRY            | 29.90 TRY
+  500 TRY and above        | FREE
+
+  Same-day delivery (Istanbul European Side only, for orders placed before 11:00 AM on
+  weekdays): additional 49.90 TRY surcharge applies.
+
+INTERNATIONAL
+
+  Order Value              | Shipping Fee
+  -------------------------|-------------
+  Below 75 USD             | 15.00 USD
+  75 USD and above         | FREE
+
+  All international orders are shipped DDP (Delivered Duty Paid). Customs duties and
+  import taxes are covered by ShopVista — you will not be charged additional fees upon
+  delivery. Some countries with special import regulations may be excluded; see the
+  checkout page for country-specific information.
+
+
+4. ORDER PROCESSING & DISPATCH TIMES
+--------------------------------------
+  - Orders placed before 14:00 (UTC+3) on weekdays are dispatched the same day.
+  - Orders placed after 14:00 or on weekends are dispatched the next business day.
+  - Out-of-stock items show an estimated restock date on the product page.
+  - Personalized or custom-made items require 3–5 business days before dispatch.
+
+
+5. ORDER TRACKING
+-----------------
+Once your order is dispatched you will receive a tracking number by e-mail and SMS.
+
+Tracking options:
+  a) shopvista.com.tr → "My Orders" → Select order → "Track Shipment" button
+  b) Visit the carrier's website and enter your tracking number.
+  c) WhatsApp: +90 850 123 45 67 (24/7 chatbot, live support during business hours)
+
+
+6. DELIVERY ISSUES
+------------------
+MISSED DELIVERY
+  If the courier cannot reach you, a notification will be left at your door and the parcel
+  will be held at the nearest carrier branch. If not collected within 3 business days, the
+  parcel is returned to ShopVista. A re-shipping fee of 29.90 TRY (domestic) or 15 USD
+  (international) will apply for re-dispatch.
+
+DELAYED DELIVERY
+  If your order is at least 2 business days past the estimated delivery date, contact us at
+  support@shopvista.com.tr with your order number. We will open a trace with the carrier
+  and provide an update within 5 business days.
+
+LOST PARCEL
+  If the carrier issues a loss report, ShopVista will either resend the item free of charge
+  or issue a full refund — whichever the customer prefers.
+
+DAMAGED PARCEL
+  If the package is visibly damaged on arrival, document the damage in front of the courier
+  before signing and report it to ShopVista immediately. Claims submitted without a courier
+  damage record may be denied by the carrier.
+
+
+7. INVOICE INFORMATION
+-----------------------
+  - An electronic invoice (e-Invoice or e-Archive) is sent by e-mail upon order completion.
+  - For corporate invoices, enter your tax ID and company name during checkout.
+    Invoice details cannot be changed after an order is placed.
+
+
+8. CONTACT
+----------
+Customer Service    : +90 850 123 45 67 (weekdays 09:00–18:00 UTC+3)
+E-mail              : support@shopvista.com.tr
+Live Chat           : shopvista.com.tr/live-support
+WhatsApp            : +90 850 123 45 67

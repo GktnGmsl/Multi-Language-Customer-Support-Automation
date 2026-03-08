@@ -1,0 +1,102 @@
+ShopVista ÜRÜN GARANTİ POLİTİKASI
+===================================
+Son güncelleme: Mart 2026
+
+ShopVista Elektronik ve Yaşam A.Ş., sattığı tüm ürünlerin belirtilen garanti koşulları
+dahilinde kusursuz çalışmasını taahhüt eder. Aşağıda kategori bazlı garanti süreleri,
+kapsam detayları ve servis süreçleri açıklanmaktadır.
+
+
+1. GARANTİ SÜRELERİ
+-------------------
+  Ürün Kategorisi                         | Garanti Süresi
+  ----------------------------------------|-----------------
+  Akıllı telefon ve tablet                | 2 yıl
+  Bilgisayar ve laptop                    | 2 yıl
+  Beyaz eşya ve büyük ev aletleri         | 2 yıl
+  Küçük ev aletleri (blender, ütü vb.)   | 2 yıl
+  TV ve görüntü sistemleri                | 2 yıl
+  Ses sistemleri ve kulaklık              | 2 yıl
+  Oyun konsolları ve aksesuarları         | 2 yıl
+  Giyim ve tekstil ürünleri               | 1 yıl (üretim hatası)
+  Spor ve outdoor ekipmanları             | 1 yıl
+  Ev dekorasyon ve mobilya                | 1 yıl
+  Kitap, kırtasiye, ofis malzemeleri      | Garanti uygulanmaz
+  Gıda ürünleri                           | Son kullanma tarihi geçerli
+
+Garanti süresi, ürünün müşteriye teslim edildiği tarihten itibaren başlar.
+Teslim tarihi, ShopVista sipariş sistemindeki kargo teslim kaydını esas alır.
+
+
+2. GARANTİ KAPSAMI
+------------------
+Garanti aşağıdaki durumları kapsar:
+
+  a) Normal kullanım koşullarında ortaya çıkan malzeme veya işçilik hataları
+  b) Fabrikasyon kaynaklı yazılım/donanım arızaları
+  c) Kullanıcıya teslim anında mevcut olan gizli kusurlar
+  d) Üretici tarafından tanınan ek garanti kapsamları (ürünle birlikte gelen garanti belgesi
+     mevcutsa o belgedeki koşullar da geçerlidir)
+
+
+3. GARANTİ KAPSAMI DIŞI DURUMLAR
+----------------------------------
+Aşağıdaki durumlarda garanti hakkı geçersiz sayılır:
+
+  - Kullanım hatası, dikkatsizlik veya kazadan kaynaklanan fiziksel hasar
+  - Yetkisiz kişi veya servislerde yapılan onarım ve müdahale
+  - Ürünün teknik özelliklerine aykırı kullanım (ör: voltaj uyumsuzluğu)
+  - Su/nem hasarı (su geçirmezlik özelliği olmayan ürünler için)
+  - Doğal afet, yıldırım, güç dalgalanması gibi dış etkenlerden kaynaklanan arızalar
+  - Seri numarası, etiket veya garanti belgesinin tahrip edilmesi ya da değiştirilmesi
+  - Normal yıpranma ve aşınma (batarya kapasitesi düşüşü, ekran kirik gibi mekanik kırık)
+  - Virüs, kötü amaçlı yazılım veya yetkisiz yazılım yüklemesinden kaynaklanan arızalar
+
+
+4. GARANTİ BAŞVURU SÜRECİ
+--------------------------
+Adım 1 — Başvuru Oluşturma
+  shopvista.com.tr/garanti adresinden veya müşteri hizmetlerini arayarak servis talebi
+  oluşturun. Talep sırasında sipariş numaranız, ürünün seri numarası ve arıza açıklaması
+  istenecektir.
+
+Adım 2 — Teknik Değerlendirme
+  Küçük ev aletleri ve elektronik ürünler için önce uzaktan teknik destek verilir
+  (telefon/video görüşmesi). Sorun uzaktan çözülemezse ürün servis için alınır.
+
+Adım 3 — Servise Gönderme veya Teslim
+  ShopVista, garanti kapsamındaki ürünler için ücretsiz kurye hizmeti gönderir.
+  Ayrıca İstanbul, Ankara ve İzmir'deki ShopVista Teknik Servis noktalarına ürünü
+  doğrudan teslim edebilirsiniz.
+
+Adım 4 — Onarım veya Değişim
+  - Ürün servis alındıktan sonra 15 iş günü içinde onarılır.
+  - Onarım mümkün değilse veya aynı arıza 3 kez tekrarlanırsa ürün aynı model veya
+    eşdeğer modelle değiştirilir.
+  - Eşdeğer model yoksa ürün bedeli tam olarak iade edilir.
+
+Adım 5 — Teslim
+  Onarılan veya değiştirilen ürün, ücretsiz kargo ile adresinize gönderilir.
+  Servis süresi boyunca kargo takip bilgisi e-posta ile paylaşılır.
+
+
+5. GARANTİ BELGESİ
+------------------
+Her elektronik ürün, garanti belgesiyle birlikte gönderilir. Garanti belgesi kaybolması
+durumunda sipariş numaranız ile ShopVista müşteri hizmetleri üzerinden yeni belge
+talep edebilirsiniz. Dijital garanti kaydı, ShopVista sisteminde otomatik olarak tutulur.
+
+
+6. MARKAYA ÖZEL GARANTİ (OEM GARANTİ)
+--------------------------------------
+Apple, Samsung, Sony, LG, Dyson, Philips gibi markaların ürünleri için üreticinin kendi
+yetkili servis ağı da kullanılabilir. Bu durumda şirketin kendi garanti koşulları esas alınır.
+ShopVista garanti koşulları ile OEM garanti koşullarından müşteri lehine olanı uygulanır.
+
+
+7. İLETİŞİM
+-----------
+Garanti ve teknik destek : 0850 123 45 67 (Hafta içi 09:00–18:00)
+Garanti başvuru sayfası  : shopvista.com.tr/garanti
+E-posta                  : destek@shopvista.com.tr
+Teknik servis adresleri  : shopvista.com.tr/servis-noktalari

@@ -1,0 +1,114 @@
+ShopVista KARGO VE TESLİMAT POLİTİKASI
+=======================================
+Son güncelleme: Mart 2026
+
+Bu sayfa, ShopVista Elektronik ve Yaşam A.Ş.'nin kargo, teslimat ve sipariş takibine ilişkin
+tüm koşullarını içermektedir.
+
+
+1. KARGO ORTAKLARI
+------------------
+ShopVista, yurtiçi teslimatlar için aşağıdaki kargo firmalarıyla çalışmaktadır:
+
+  - Yurtiçi Kargo
+  - Aras Kargo
+  - MNG Kargo
+  - PTT Kargo (uzak bölgeler ve kargo şubesi teslim tercihleri için)
+
+Siparişiniz, stok ve coğrafi duruma göre en hızlı teslimatı sağlayacak kargo firmasına
+otomatik olarak atanır. Farklı bir kargo firması tercih etme imkânı bulunmamaktadır.
+
+
+2. TESLİMAT SÜRELERİ
+--------------------
+YURTİÇİ TESLİMAT (Türkiye geneli)
+  - Büyükşehirler (İstanbul, Ankara, İzmir, Bursa, Antalya vb.): 2–3 iş günü
+  - Diğer iller                                                 : 3–5 iş günü
+  - Uzak/köy adresleri ve adayı içeren teslimatlar              : 5–7 iş günü
+
+ULUSLARARASI TESLİMAT
+  - Avrupa ülkeleri    : 7–10 iş günü
+  - Amerika ve Kanada  : 10–15 iş günü
+  - Diğer ülkeler      : 10–20 iş günü
+
+Not: İş günleri hafta içi Pazartesi–Cuma günlerini kapsar; resmi tatil günleri hesaba katılmaz.
+Dönemsel yoğunluk (kampanya, bayram öncesi vb.) nedeniyle sürelerde uzama yaşanabilir;
+bu durumlarda sipariş onay e-postasında tahmini teslimat tarihi güncellenir.
+
+
+3. KARGO ÜCRETLERİ
+------------------
+YURTİÇİ
+
+  Sipariş Tutarı        | Kargo Ücreti
+  ----------------------|-------------
+  500 TL altı           | 29,90 TL
+  500 TL ve üzeri       | ÜCRETSİZ
+
+  Aynı gün teslimat (yalnızca İstanbul Avrupa Yakası için belirli saatlerde sipariş verilmesi
+  şartıyla): +49,90 TL ek ücret uygulanır.
+
+ULUSLARARASI
+
+  Sipariş Tutarı        | Kargo Ücreti
+  ----------------------|-------------
+  75 USD altı           | 15,00 USD
+  75 USD ve üzeri       | ÜCRETSİZ
+
+  Uluslararası teslimatlar DDP (Delivered Duty Paid) esasıyla gerçekleştirilir; hedef ülke
+  gümrük vergisi ve ithalat vergileri ShopVista tarafından karşılanır.
+
+
+4. SİPARİŞ İŞLEME VE KARGOYA TESLİM SÜRESİ
+-------------------------------------------
+  - Hafta içi 14:00'e kadar verilen siparişler aynı gün kargoya teslim edilir.
+  - 14:00 sonrası ve hafta sonu verilen siparişler bir sonraki iş günü kargoya verilir.
+  - Stokta olmayan ürünler için tahmini temin süresi ürün sayfasında belirtilir.
+  - Özel üretim veya kişiselleştirilmiş ürünlerde kargoya teslim süresi 3–5 iş günüdür.
+
+
+5. SİPARİŞ TAKİBİ
+-----------------
+Siparişiniz kargoya verildiğinde e-posta ve SMS ile kargo takip numarası tarafınıza gönderilir.
+
+Takip yöntemleri:
+  a) shopvista.com.tr → "Siparişlerim" → İlgili sipariş → "Kargo Takip" butonu
+  b) İlgili kargo firmasının web sitesine gidin ve takip numaranızı girin.
+  c) WhatsApp hattımız: +90 850 123 45 67 (7/24 bot desteği, iş saatlerinde canlı destek)
+
+
+6. TESLİMAT SORUNLARI
+---------------------
+TESLİMAT YAPILAMAMASI
+  Kurye adresinizde sizi bulamazsa kapıya bildirim bırakır ve en yakın kargo şubesine teslim
+  eder. Ürün 3 iş günü içinde şubeden teslim alınmazsa ShopVista deposuna iade edilir.
+  Bu durumda yeniden kargolama ücreti (29,90 TL) müşteriye aittir.
+
+GECİKMELİ TESLİMAT
+  Tahmini tarihin en az 2 iş günü aşılması durumunda destek@shopvista.com.tr adresine
+  sipariş numaranızı yazarak başvurun; kargo firmasıyla araştırma süreci başlatılır ve
+  5 iş günü içinde sonuç bildirilir.
+
+KAYIP KARGO
+  Kargo firmasının kayıp tutanağı düzenlenmesi halinde ShopVista, ürünü ücretsiz olarak
+  yeniden gönderir veya tam iade yapar; müşteri tercihine bırakılır.
+
+HASARLI TESLİMAT
+  Paket hasarlı teslim edilirse kargo görevlisinin önünde tutanak tutun ve paketi açmadan
+  ShopVista müşteri hizmetlerine bildirin. Tutanaksız hasarlarda kargo firması talebi
+  reddedebilir.
+
+
+7. FATURA BİLGİLERİ
+-------------------
+  - Elektronik fatura (e-Fatura veya e-Arşiv) sipariş tamamlandıktan sonra e-posta ile gönderilir.
+  - Kurumsal fatura için sipariş sırasında vergi kimlik numarası ve şirket unvanını girmeyi
+    unutmayın; sipariş onaylandıktan sonra fatura bilgisi değiştirilemez.
+
+
+8. İLETİŞİM
+-----------
+Müşteri Hizmetleri: 0850 123 45 67 (Hafta içi 09:00–18:00)
+E-posta           : destek@shopvista.com.tr
+Canlı Destek      : shopvista.com.tr/canli-destek
+WhatsApp          : +90 850 123 45 67

@@ -1,0 +1,188 @@
+ShopVista SIK SORULAN SORULAR / FREQUENTLY ASKED QUESTIONS
+===========================================================
+Son güncelleme / Last updated: Mart / March 2026
+
+========================================================
+BÖLÜM 1: TÜRKÇE SSS
+========================================================
+
+--- İADE VE DEĞİŞİM ---
+
+S1: Ürünü iade etmek için kaç günüm var?
+C1: Ürünü teslim aldığınız tarihten itibaren 14 takvim günü içinde iade talebinde
+    bulunabilirsiniz. 6502 sayılı Kanun kapsamında tanınan cayma hakkı süresi 14 gündür.
+    Bu süreyi geçen talepler kabul edilmemektedir.
+
+S2: İade kargo ücretini ben mi ödüyorum?
+C2: Hayır. ShopVista, yurtiçi iadelerde kargo ücretini karşılamaktadır. İade onayından sonra
+    tarafınıza ücretsiz iade kargo kodu gönderilir. Uluslararası iadelerde kargo ücreti
+    kargonun boyutu ve ağırlığına göre belirlenir; ayrıntı için destek hattımızı arayın.
+
+S3: Hangi ürünler iade edilemez?
+C3: Açılmış yazılım ve dijital lisanslar, ambalajı açılmış iç giyim/mayo/bikini, kişiye özel
+    (isim/gravür baskılı) ürünler, ambalajı açılmış kozmetik ve kişisel bakım ürünleri,
+    dijital içerikler (indirilmiş e-kitap, müzik, film), son kullanma tarihi geçmiş gıdalar
+    ve ambalajı açılmış medikal ürünler iade kapsamı dışındadır.
+
+S4: İadem onaylandıktan sonra param ne zaman hesabıma geçer?
+C4: Kredi ve banka kartı ödemelerinde geri ödeme en fazla 10 iş günü içinde başlatılır;
+    bankanızın işlem süresine bağlı olarak hesabınıza yansıma 14 iş gününe uzayabilir.
+    Havale/EFT ödemelerinde 5 iş günü içinde IBAN'ınıza ödeme yapılır.
+    ShopVista Cüzdan kullanımında iade 1 iş günü içinde cüzdanınıza yüklenir.
+
+S5: Ürünü değiştirmek istiyorum; nasıl talep oluşturabilirim?
+C5: shopvista.com.tr adresinden "Siparişlerim" → "Değişim Talebi" yolunu izleyin. Değişim,
+    aynı ürünün farklı renk veya bedeni için geçerlidir. Farklı bir ürün istiyorsanız
+    mevcut ürünü iade edip yeni sipariş oluşturmanız gerekmektedir.
+
+S6: Hatalı veya eksik ürün geldi. Ne yapmalıyım?
+C6: Teslimat anında durumu tespit ederseniz kargo görevlisinin önünde tutanak tutun. Sonradan
+    fark ettiyseniz 48 saat içinde fotoğraf ve sipariş numarasıyla destek@shopvista.com.tr
+    adresine bildirin. Hatalı/eksik ürünler için 14 günlük süre kısıtlaması uygulanmaz;
+    öncelikli olarak değişim veya iade yapılır.
+
+--- KARGO VE TESLİMAT ---
+
+S7: Siparişim ne zaman kargoya verilir?
+C7: Hafta içi saat 14:00'ye kadar verilen siparişler aynı gün kargoya teslim edilir.
+    14:00 sonrası ve hafta sonu siparişler bir sonraki iş günü kargoya verilir.
+
+S8: Kargo takip numaramı nereden öğrenebilirim?
+C8: Siparişiniz kargoya verildiğinde e-posta ve SMS ile takip numarası gönderilir.
+    Ayrıca shopvista.com.tr'deki "Siparişlerim" sayfasından sipariş detayına girerek
+    kargo takip bağlantısına ulaşabilirsiniz.
+
+S9: Tahmini teslimat süreleri nedir?
+C9: Büyükşehirlerde 2–3 iş günü, diğer illerde 3–5 iş günü, uzak bölgelerde 5–7 iş
+    günüdür. Kampanya dönemlerinde süre uzayabilir; sipariş onay e-postasında güncel
+    tahmini tarih yer alır.
+
+S10: Ücretsiz kargo için minimum sipariş tutarı nedir?
+C10: Yurtiçi siparişlerde 500 TL ve üzeri alışverişlerde kargo ücretsizdir.
+     Uluslararası siparişlerde 75 USD ve üzeri alışverişlerde kargo ücretsizdir.
+     Bu tutarların altındaki siparişler için yurtiçi kargo 29,90 TL, uluslararası kargo
+     15 USD olarak uygulanır.
+
+S11: Kurye beni evde bulamazsa ne olur?
+C11: Kurye adresinizde sizi bulamazsa not bırakır ve ürünü en yakın kargo şubesine teslim
+     eder. Şubedeki ürün 3 iş günü içinde teslim alınmazsa ShopVista deposuna iade
+     edilir. Yeniden gönderi için 29,90 TL kargo ücreti tekrar alınır.
+
+--- GARANTİ VE TEKNİK DESTEK ---
+
+S12: Ürünümün garanti süresi ne kadar?
+C12: Elektronik ürünler (telefon, laptop, tablet, TV, beyaz eşya vb.) 2 yıl garanti
+     kapsamındadır. Giyim, spor ekipmanı ve ev dekorasyon ürünlerinde garanti süresi
+     üretim hatalarına karşı 1 yıldır. Garanti teslim tarihinden itibaren başlar.
+
+S13: Garanti kapsamında servis talebi nasıl oluştururum?
+C13: shopvista.com.tr/garanti sayfasından veya 0850 123 45 67 numaralı hattı arayarak
+     servis talebi açabilirsiniz. Talep için sipariş numaranız ve ürün seri numarası
+     gereklidir. Garanti kapsamındaki onarım ve kargo ücretsizdir.
+
+--- ÖDEME VE HESAP ---
+
+S14: Hangi ödeme yöntemlerini kabul ediyorsunuz?
+C14: Kredi kartı (Visa, Mastercard, American Express), banka kartı (Interac/Debit),
+     havale/EFT, kapıda ödeme (yalnızca belirli bölgeler), ShopVista Cüzdan ve BKM
+     Express desteklenmektedir. Tüm kredi kartı ödemelerinde asgari 3 taksit seçeneği
+     sunulmaktadır (bankanıza göre değişir).
+
+S15: Siparişimi verdikten sonra adresimi değiştirebilir miyim?
+C15: Siparişiniz kargoya verilmeden önce "Siparişlerim" sayfasından adres güncelleme
+     talebinde bulunabilirsiniz. Kargoya verildikten sonra adres değişikliği mümkün
+     değildir; bu durumda kargo firmasının şube teslimatı alternatifini deneyebilirsiniz.
+
+S16: Siparişimi iptal edebilir miyim?
+C16: Kargoya verilmeden önce siparişi "Siparişlerim" → "İptal Et" seçeneğiyle
+     iptal edebilirsiniz. Kargoya verildikten sonra iptal yapılamaz; ürünü teslim alıp
+     14 gün içinde iade etmeniz gerekir.
+
+S17: ShopVista'da üyelik açmak zorunlu mu?
+C17: Hayır. Misafir olarak da sipariş verebilirsiniz. Ancak sipariş geçmişinizi
+     görüntülemek, iade talebinde bulunmak ve kargo takibi yapmak için üyelik
+     açmanızı öneririz.
+
+--- KAMPANYA VE İNDİRİMLER ---
+
+S18: İndirim kodumu nasıl kullanabilirim?
+C18: Sepet sayfasında "İndirim Kodu" alanına kodunuzu girin ve "Uygula" butonuna tıklayın.
+     Aynı siparişte yalnızca bir indirim kodu kullanılabilir. Kod geçerliyse indirim tutarı
+     otomatik olarak düşülür.
+
+S19: Fiyat garantiniz var mı?
+C19: Evet. Sipariş tarihinden itibaren 7 gün içinde ShopVista'nın kendi ürün sayfasında
+     fiyat düşers e aradaki farkı ShopVista Cüzdan olarak iade ederiz. Üçüncü parti
+     satıcıların fiyatları bu kapsama girmez.
+
+S20: Şirket adına toplu sipariş verebilir miyim?
+C20: Evet, kurumsal ve toplu siparişler için kurumsal@shopvista.com.tr adresine ulaşın.
+     10 adet ve üzeri siparişlerde özel fiyatlandırma ve fatura seçenekleri sunulmaktadır.
+
+
+========================================================
+BÖLÜM 2: ENGLISH FAQ
+========================================================
+
+--- RETURNS & EXCHANGES ---
+
+Q1: What is the return window for orders?
+A1: You have 14 calendar days from the date of delivery to initiate a return request.
+    This applies to all orders placed on shopvista.com.tr. Returns requested after the
+    14-day window cannot be accepted.
+
+Q2: Which items cannot be returned?
+A2: The following items are non-returnable: opened software and digital licenses, unsealed
+    underwear, swimwear, and intimate apparel, personalized/custom-made items (e.g., engraved
+    or name-printed products), opened cosmetics and personal care products, downloaded
+    digital content (e-books, music, films), expired or perishable food products, and opened
+    medical/hygiene supplies (masks, syringes, etc.).
+
+Q3: How do I get a refund, and how long does it take?
+A3: Once your return is approved: credit/debit card payments are refunded within 10 business
+    days of return approval (your bank may take up to 14 business days to post the credit);
+    bank transfer payments are refunded within 5 business days to the IBAN on file;
+    ShopVista Wallet credits are processed within 1 business day.
+
+--- SHIPPING & DELIVERY ---
+
+Q4: What are the shipping costs and delivery times?
+A4: Domestic (Turkey): orders over 500 TRY ship free; orders below 500 TRY incur a flat
+    29.90 TRY shipping fee. Delivery takes 2–5 business days depending on region.
+    International: orders over $75 USD ship free; orders below $75 USD incur a $15 flat fee.
+    Delivery to Europe takes 7–10 business days; to the Americas 10–15 business days.
+
+Q5: Does ShopVista ship internationally?
+A5: Yes. ShopVista ships to most countries worldwide. International orders are shipped on a
+    DDP (Delivered Duty Paid) basis, meaning customs duties and import taxes are covered by
+    ShopVista. You will not incur additional charges upon delivery.
+
+Q6: How can I track my order?
+A6: Once your order is dispatched, a tracking number is sent to your registered e-mail and
+    phone number. You can also track your order from "My Orders" on shopvista.com.tr.
+    Alternatively, contact us via WhatsApp at +90 850 123 45 67 for real-time updates.
+
+--- WARRANTY & TECHNICAL SUPPORT ---
+
+Q7: What warranty do products carry?
+A7: Electronic products (smartphones, laptops, tablets, TVs, large and small home appliances,
+    audio equipment, gaming consoles) carry a 2-year manufacturer warranty. Clothing, sporting
+    goods, and home décor items carry a 1-year warranty against manufacturing defects.
+    The warranty period starts from the date of delivery.
+
+Q8: How do I submit a warranty claim?
+A8: Visit shopvista.com.tr/warranty or call +90 850 123 45 67 (weekdays 09:00–18:00 UTC+3)
+    to open a service request. You will need your order number and product serial number.
+    All warranty repairs and return shipping are provided free of charge.
+
+--- ACCOUNT & PAYMENT ---
+
+Q9: What payment methods does ShopVista accept for international orders?
+A9: International orders can be paid by Visa, Mastercard, or American Express credit/debit
+    cards. PayPal is also accepted for international orders. All transactions are processed
+    in your local currency where supported, otherwise in USD.
+
+Q10: Can I place an order without creating an account?
+A10: Yes, guest checkout is available. However, creating a free ShopVista account is
+     recommended to access your order history, easily file returns, and receive
+     personalized offers.
