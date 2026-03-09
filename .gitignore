@@ -24,8 +24,6 @@ wheels/
 .venv/
 venv/
 ENV/
-env/
-.env
 
 # IDE and Editor
 .vscode/
@@ -39,7 +37,6 @@ Thumbs.db
 *.sublime-workspace
 
 # OS
-.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -48,8 +45,11 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 
+# Environment & secrets
+.env
+
 # Project-specific
-# (experiment chunks can be regenerated, but keep production chunks for reference)
-# Uncomment below if you want to ignore all generated chunks:
+data/vectordb/
+# Experiment chunks can be regenerated; keep production chunks for reference
 # data/chunks/*.jsonl
 # data/chunks/experiment_summary.json

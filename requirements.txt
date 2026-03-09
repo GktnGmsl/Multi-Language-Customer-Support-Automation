@@ -1,14 +1,11 @@
 # ShopVista Multi-Language Customer Support Automation
-# No external dependencies required — uses only Python standard library
-
-# Python version requirement
 # Requires: Python 3.10+
 
-# All imports are from the Python standard library:
-# - json (JSON serialization)
-# - os (OS operations)
-# - re (Regular expressions)
-# - statistics (Statistical functions)
-# - unicodedata (Unicode normalization)
-# - dataclasses (Data class definitions)
-# - pathlib (Path handling)
+# Embedding & Vector Database
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+
+# RAG Pipeline & LLM
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+langdetect>=1.0.9

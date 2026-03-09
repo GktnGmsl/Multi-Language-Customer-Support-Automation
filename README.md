@@ -2,43 +2,44 @@
 
 ## Proje Özeti
 
-ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) müşteri destek otomasyon sistemi. Ham şirket dokümanlarını işleyerek RAG (Retrieval-Augmented Generation) pipeline'ına uygun chunk'lara ayırır.
+ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) müşteri destek otomasyon sistemi. Ham şirket dokümanlarını işleyip chunk'lara ayırır, multilingual embedding ile vektör veritabanına yükler ve RAG (Retrieval-Augmented Generation) pipeline'ı üzerinden doğal dilde müşteri sorularını yanıtlar.
 
 ## Proje Yapısı
 
 ```
 ├── data/
 │   ├── raw_docs/                  # Kaynak dokümanlar (6 adet .txt)
-│   │   ├── iade_politikasi.txt    # TR — İade politikası (~400 kelime)
+│   │   ├── iade_politikasi.txt    # TR — İade politikası
 │   │   ├── kargo_ve_teslimat.txt  # TR — Kargo ve teslimat bilgileri
 │   │   ├── urun_garantisi.txt     # TR — Garanti koşulları ve servis
 │   │   ├── sss.txt                # TR+EN — Sık sorulan sorular (30 çift)
 │   │   ├── shipping_policy.txt    # EN — Shipping policy
 │   │   └── returns_en.txt         # EN — Returns & refunds policy
-│   └── chunks/                    # İşlenmiş chunk çıktıları
-│       ├── chunks.jsonl           # ✅ Production chunks (recursive, 500 token)
-│       ├── chunks_recursive_256.jsonl
-│       ├── chunks_recursive_500.jsonl
-│       ├── chunks_recursive_1000.jsonl
-│       ├── chunks_sentence_500.jsonl
-│       ├── chunks_fixed_500.jsonl
-│       └── experiment_summary.json
+│   ├── chunks/                    # İşlenmiş chunk çıktıları
+│   │   ├── chunks.jsonl           # ✅ Production chunks (recursive, 500 token)
+│   │   ├── chunks_recursive_*.jsonl
+│   │   ├── chunks_sentence_500.jsonl
+│   │   ├── chunks_fixed_500.jsonl
+│   │   └── experiment_summary.json
+│   └── vectordb/                  # ChromaDB persist directory (gitignore'd)
 ├── src/
-│   └── document_processor.py      # Doküman işleme ve chunking pipeline
-├── requirements.txt               # Bağımlılıklar (yalnızca stdlib)
-├── .gitignore                     # Git ignore kuralları
+│   ├── document_processor.py      # Doküman işleme ve chunking pipeline
+│   ├── vectorstore.py             # Embedding ve ChromaDB vektör veritabanı
+│   └── rag_pipeline.py            # RAG pipeline (retrieval + Gemini LLM)
+├── .env                           # API anahtarları (gitignore'd)
+├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
-## Bağımlılıklar ve Kurulum
+## Kurulum
 
 ### Sistem Gereksinimleri
 - **Python 3.10+** (3.11.3 ile test edilmiştir)
-- Hiçbir harici Python paketi gerekmez — yalnızca standart kütüphane kullanılmaktadır
 
-### Kurulum
+### Adımlar
 
-1. **Hazırlık** (opsiyonel — sanal ortam önerilir):
+1. **Sanal ortam oluşturun:**
    ```bash
    python -m venv .venv
    # Windows:
@@ -47,40 +48,49 @@ ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) m
    source .venv/bin/activate
    ```
 
-2. **Bağımlılıklar** (yalnızca Python versiyonu kontrol etmek isterseniz):
+2. **Bağımlılıkları yükleyin:**
    ```bash
-   # Bağımlılık dosyası bilgilendirme amaçlı; gerçek kurulum gerekmez
-   cat requirements.txt
+   pip install -r requirements.txt
    ```
 
-### Dosya Yapısı
-- `requirements.txt` — Proje bağımlılıkları ve Python versiyonu specifications
-- `.gitignore` — Git'in ignore edeceği dosya/klasörler (cache, .venv, IDE dosyaları, vs.)
+3. **`.env` dosyası oluşturun** (proje kök dizininde):
+   ```
+   GEMINI_API_KEY=your_google_gemini_api_key
+   HF_API_KEY=your_huggingface_api_key
+   ```
 
 ## Çalıştırma
 
+### 1. Doküman İşleme & Chunking
 ```bash
 python src/document_processor.py
 ```
+Kaynak dokümanları işler, chunk'lara ayırır → `data/chunks/chunks.jsonl`
 
-Çıktı `data/chunks/` klasörüne kaydedilir.
+### 2. Embedding & Vektör Veritabanı
+```bash
+python src/vectorstore.py
+```
+Chunk'ları embed eder, ChromaDB'ye yükler → `data/vectordb/`
+
+### 3. RAG Pipeline
+```bash
+python src/rag_pipeline.py
+```
+Örnek sorularla RAG pipeline'ını çalıştırır (dil tespiti → retrieval → LLM cevap üretimi).
 
 ---
 
-## Teknik Detaylar: Pipeline İşleyişi
+## Teknik Detaylar
 
-### 1. Doküman Yükleme & Temizleme
-- UTF-8 (BOM dahil) ve Latin-1 fallback ile encoding sorunları çözülür
-- Unicode NFC normalizasyonu uygulanır
-- Non-breaking space, fazla boşluk, 3+ ardışık newline temizlenir
-- Her satır strip edilir
+### Doküman İşleme (`document_processor.py`)
+- **Encoding:** UTF-8 (BOM dahil) ve Latin-1 fallback
+- **Temizleme:** Unicode NFC normalizasyonu, non-breaking space, fazla boşluk/newline temizliği
+- **Dil tespiti:** Dosya adına göre birincil dil; çok dilli dosyalarda (`sss.txt`) chunk bazında tespit
+- **Chunking:** Recursive character splitting (bölüm başlıkları → paragraf → cümle → kelime)
+- **Çıktı:** `.jsonl` formatı — her satır bir JSON chunk objesi
 
-### 2. Dil Tespiti
-- Dosya adına göre birincil dil atanır (`shipping_policy.txt` → en, `iade_politikasi.txt` → tr)
-- `sss.txt` gibi çok dilli dosyalarda chunk bazında dil tespiti yapılır (Türkçe özel karakterler vs. İngilizce stop word sayısı)
-
-### 3. Chunking
-Her chunk'a şu metadata eklenir:
+Chunk metadata yapısı:
 ```json
 {
   "text": "...",
@@ -93,9 +103,20 @@ Her chunk'a şu metadata eklenir:
 }
 ```
 
-### 4. Çıktı
-- `.jsonl` formatında — satır başına bir JSON objesi
-- Production çıktısı: `data/chunks/chunks.jsonl`
+### Embedding & Vektör Veritabanı (`vectorstore.py`)
+- **Model:** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384-dim, 50+ dil)
+- **Veritabanı:** ChromaDB (persistent, cosine distance)
+- **Collection:** `customer_support_chunks` — 12 production chunk
+- Cross-lingual retrieval testi: TR ve EN sorgular arasında %80 overlap (excellent alignment)
+
+### RAG Pipeline (`rag_pipeline.py`)
+- **Akış:** Soru → Dil tespiti (`langdetect`) → Embedding + ChromaDB top-3 retrieval → Prompt oluşturma → LLM → Cevap
+- **LLM:** Google Gemini 2.5 Flash (`google-genai` SDK)
+- **System prompt kuralları:**
+  - Sadece verilen context'e dayanarak cevap ver
+  - Cevabın dilini sorunun diliyle eşleştir
+  - Bilgi yoksa müşteri hizmetlerine yönlendir
+  - Cevabın sonunda kaynak dokümanları belirt
 
 ---
 
@@ -142,6 +163,18 @@ Gerekçe:
 - "İade adımları" gibi sıralı listeler tek chunk'ta kalıyor (sentence splitter bunları parçalayabiliyor)
 - Fixed-size splitter testlerinde, "6. HASARLI VEYA EKSİK ÜRÜNLER" başlığının bir önceki bölümün sonuyla aynı chunk'a düşmesi gibi semantik hatalar gözlemlendi
 - Recursive yöntem, tüm deney konfigürasyonları arasında en tutarlı anlamsal chunk'ları üretiyor
+
+---
+
+## Kullanılan Teknolojiler
+
+| Bileşen | Teknoloji |
+|---|---|
+| Embedding | `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers) |
+| Vektör DB | ChromaDB (persistent, cosine distance) |
+| LLM | Google Gemini 2.5 Flash |
+| Dil tespiti | langdetect |
+| API key yönetimi | python-dotenv (`.env` dosyasından) |
 
 ---
 
