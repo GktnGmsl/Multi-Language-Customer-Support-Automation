@@ -35,7 +35,7 @@ ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) m
 │   └── eval_results.csv           # Pipeline test sonuçları metrikleri
 ├── notebooks/                     
 │   └── evaluation.ipynb           # Performans (Ragas) ve multi-turn test defteri
-├── .env                           # API anahtarları (kesinlikle gitignore edilmiş)
+├── .env                           # API anahtarları(github üzerinde paylaşılmıyor,    kullanıcı oluşturmalı)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
