@@ -44,12 +44,17 @@ Thumbs.db
 .coverage
 .pytest_cache/
 htmlcov/
+*.csv
 
 # Environment & secrets
 .env
+.env.*
 
 # Project-specific
 data/vectordb/
 # Experiment chunks can be regenerated; keep production chunks for reference
 # data/chunks/*.jsonl
 # data/chunks/experiment_summary.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints/

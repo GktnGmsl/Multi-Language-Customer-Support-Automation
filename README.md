@@ -25,14 +25,24 @@ ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) m
 ├── src/
 │   ├── document_processor.py      # Doküman işleme ve chunking pipeline
 │   ├── vectorstore.py             # Embedding ve ChromaDB vektör veritabanı
-│   └── rag_pipeline.py            # RAG pipeline (retrieval + Gemini LLM)
-├── .env                           # API anahtarları (gitignore'd)
+│   ├── rag_pipeline.py            # RAG pipeline (retrieval + Gemini LLM)
+│   ├── conversation_manager.py    # Konuşma geçmişi bellek yönetimi (Task 6)
+│   ├── api_key_rotator.py         # Google API 429 hataları için Round-Robin rotasyon
+│   ├── eval_llm_wrapper.py        # Ragas için LangChain Gemini LLM sarmalayıcısı
+│   └── eval_embed_wrapper.py      # Ragas için LangChain HuggingFace sarmalayıcısı
+├── evaluation/
+│   ├── test_set.json              # Ragas için 20 soruluk değerlendirme seti
+│   └── eval_results.csv           # Pipeline test sonuçları metrikleri
+├── notebooks/                     
+│   └── evaluation.ipynb           # Performans (Ragas) ve multi-turn test defteri
+├── .env                           # API anahtarları (kesinlikle gitignore edilmiş)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
 
 ## Kurulum
+
 
 ### Sistem Gereksinimleri
 - **Python 3.10+** (3.11.3 ile test edilmiştir)
@@ -56,6 +66,9 @@ ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) m
 3. **`.env` dosyası oluşturun** (proje kök dizininde):
    ```
    GEMINI_API_KEY=your_google_gemini_api_key
+   # Çoklu api hesapları varsa, Round-Robin olarak dönmek için sırayla eklenebilir:
+   GEMINI_API_KEY_2=your_google_gemini_api_key_2
+   GEMINI_API_KEY_3=your_google_gemini_api_key_3
    HF_API_KEY=your_huggingface_api_key
    ```
 
@@ -78,6 +91,16 @@ Chunk'ları embed eder, ChromaDB'ye yükler → `data/vectordb/`
 python src/rag_pipeline.py
 ```
 Örnek sorularla RAG pipeline'ını çalıştırır (dil tespiti → retrieval → LLM cevap üretimi).
+
+### 4. Değerlendirme (Evaluation) & Multi-turn Testleri
+Jupyter Notebook ortamını aktif edin:
+```bash
+jupyter notebook notebooks/evaluation.ipynb
+```
+Bu notebook:
+1. `evaluation/test_set.json` içerisindeki değerlendirme setini alır, RAG pipeline'a sorar.
+2. `ragas` kütüphanesi kullanarak **Faithfulness** ve **AnswerRelevancy** skorlarını çıkarıp `.csv` kaydeder.
+3. Multi-Turn konuşma simülasyonunu farklı dillerdeki senaryolarla (Türkçe/İngilizce, zamir takibi ile) çalıştırır.
 
 ---
 
@@ -109,14 +132,27 @@ Chunk metadata yapısı:
 - **Collection:** `customer_support_chunks` — 12 production chunk
 - Cross-lingual retrieval testi: TR ve EN sorgular arasında %80 overlap (excellent alignment)
 
+### Konuşma Geçmişi / Multi-Turn Sözlük Optimizasyonu (`conversation_manager.py`)
+- Müşterinin ardışık sorular sormasını ve (Örn: "Peki bu cihazda nasıl olur?") gibi zamirlere ("bu", "şu") göre asistanın konuyu algılamasını sağlar.
+- `deque` tabanlı FIFO buffer tekniği kullanarak, token patlamasını önlemek maksadıyla sadece son N (örn. 5 adet) mesaj history içine yansıtılır.
+- Her mesajın içeriğine `Kullanıcı: ...` ve `Asistan: ...` formatları append edilip sistem promptunda `"conversation_history"` olarak kullanılır.
+
 ### RAG Pipeline (`rag_pipeline.py`)
-- **Akış:** Soru → Dil tespiti (`langdetect`) → Embedding + ChromaDB top-3 retrieval → Prompt oluşturma → LLM → Cevap
+- **Akış:** Soru → Dil tespiti (`langdetect`) → Önceki session hafızasını okuma → Embedding + ChromaDB top-3 retrieval → Geçmiş sohbet bağlamı ile beraber prompt oluşturma → LLM → Cevap
+- **API Hata Toleransı & Rate Limit:** 
+  - `api_key_rotator.py`: Env'deki birden fazla anahtarı Round-Robin değiştirir.
+  - "Exponential Backoff": Google API'dan (429 - Quota Excedeed) cevabı dönerse süreyi katlayarak yeniden dener.
 - **LLM:** Google Gemini 2.5 Flash (`google-genai` SDK)
 - **System prompt kuralları:**
   - Sadece verilen context'e dayanarak cevap ver
   - Cevabın dilini sorunun diliyle eşleştir
   - Bilgi yoksa müşteri hizmetlerine yönlendir
   - Cevabın sonunda kaynak dokümanları belirt
+
+### Ragas İle Performans Testleri (Task 5)
+- Sistem kalitesini ölçmek adına RAGAS (v0.4.3) tercih edildi. Langchain sarmalayıcıları olarak Pydantic temelli bağımsız yapılar yazıldı (`eval_llm_wrapper.py`, `eval_embed_wrapper.py`). 
+- **Veri Seti:** Karışık, Edge-case ve Dokümanlarda bulunmayan zor sorular içeren bir `test_set.json` (20 Soru) manuel yaratıldı.
+- RAGAS'ın *Asenkron API Rate Limit* hatalarını önlemek adına `RunConfig(max_workers=1)` kurularak limitasyon senkronize sağlandı.
 
 ---
 

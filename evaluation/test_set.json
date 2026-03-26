@@ -1,0 +1,105 @@
+[
+  {
+    "question": "İade süresi kaç gündür?",
+    "ground_truth": "İade süresi, siparişinizin teslim edildiği günden itibaren 30 gündür.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Hangi durumlarda iade kabul edilmez?",
+    "ground_truth": "Ürünlerin kullanılmamış, hasar görmemiş, yıkanmamış ve etiketlerinin üzerinde olması gerekmektedir. İndirimli ürünlerde ise sadece değişim yapılmakta, iade kabul edilmemektedir.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Kargo ücreti ne kadar?",
+    "ground_truth": "Standart teslimat kargo ücreti 49.90 TL'dir. 500 TL ve üzeri siparişlerinizde standart kargo ücretsizdir.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Hızlı kargo seçeneğiniz var mı?",
+    "ground_truth": "Evet, Hızlı Teslimat (1-2 iş günü) seçeneğimiz 89.90 TL'dir. Hızlı teslimat için 500 TL üzeri ücretsiz kargo baremi geçerli değildir.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Garanti süresi ne kadar?",
+    "ground_truth": "Tüm elektronik ürünlerimiz satın alma tarihinden itibaren 2 yıl (24 ay) distribütör veya üretici garantisi altındadır. Giyim ürünlerinde ise üretim hatalarına karşı garanti süresi 6 aydır.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Garanti kapsamına neleri dahil etmiyorsunuz?",
+    "ground_truth": "Kullanıcı hatasından kaynaklanan hasarlar (düşürme, kırılma, sıvı teması vb.), yetkisiz kişilerce yapılan müdahaleler ve doğal afetler sonucu oluşan hasarlar garanti kapsamı dışındadır.",
+    "category": "dokumanda_var_tr"
+  },
+  {
+    "question": "Elektrikli ev aletlerinde garanti var mı?",
+    "ground_truth": "Küçük ev aletlerinde 1 yıl ekstra garanti seçeneği satın alabilirsiniz. Normal garanti süresi 2 yıldır.",
+    "category": "dokumanda_var_tr"
+  },
+
+  {
+    "question": "How many days do I have to return an item?",
+    "ground_truth": "You have 30 days from the date of delivery to return your order.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "Are returns free?",
+    "ground_truth": "Yes, standard returns are free within 30 days. You will be provided with a prepaid return shipping label.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "How much does shipping cost?",
+    "ground_truth": "Standard Shipping costs $5.99. Orders over $50 qualify for free Standard Shipping.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "Do you offer Next Day Delivery?",
+    "ground_truth": "Yes, Next Business Day delivery costs $19.99 and is not eligible for free shipping over $50.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "Can I return a sale item?",
+    "ground_truth": "Sale items are usually eligible for exchange or store credit only, unless otherwise specified.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "ground_truth": "Yes, we ship to most countries. International shipping rates vary and are calculated at checkout. Customers are responsible for customs duties.",
+    "category": "dokumanda_var_en"
+  },
+  {
+    "question": "How long does international shipping take?",
+    "ground_truth": "International shipping typically takes 7-14 business days.",
+    "category": "dokumanda_var_en"
+  },
+
+  {
+    "question": "Kredi kartına vade farksız taksit yapıyor musunuz?",
+    "ground_truth": "Bu konuda bilgim yok, müşteri hizmetlerimizi arayabilirsiniz: 0850 123 45 67",
+    "category": "dokumanda_yok"
+  },
+  {
+    "question": "Siparişimi mağazadan teslim alabilir miyim?",
+    "ground_truth": "Bu konuda bilgim yok, müşteri hizmetlerimizi arayabilirsiniz: 0850 123 45 67",
+    "category": "dokumanda_yok"
+  },
+  {
+    "question": "Do you accept crypto payments like Bitcoin?",
+    "ground_truth": "I don't have information on this topic. Please contact our customer service: +90 850 123 45 67",
+    "category": "dokumanda_yok"
+  },
+
+  {
+    "question": "Ürünü beğenmedim, iade mi edeyim yoksa garantiden mi faydalanayım?",
+    "ground_truth": "Ürünü beğenmediyseniz ve kullanılmamışsa, etiketleri üzerindeyse 30 gün içinde iade edebilirsiniz. Garanti, üretim hatalarına karşı geçerlidir ve iadeden farklı bir süreçtir.",
+    "category": "muglak"
+  },
+  {
+    "question": "I ordered it yesterday and it's broken.",
+    "ground_truth": "If the item is broken upon arrival, it is covered under our warranty policy since it is a manufacturing defect, or it might have been damaged during shipping. You can contact customer support for an exchange or return.",
+    "category": "muglak"
+  },
+  {
+    "question": "Kargo parası vermemek için ne yapmalıyım, yurt dışındayım?",
+    "ground_truth": "500 TL (veya $50) üzeri standart kargo ücretsizdir, fakat yurt dışı siparişlerinde kargo ücreti ödeme adımında hesaplanır ve alıcı gümrük vergilerinden sorumludur.",
+    "category": "muglak"
+  }
+]
