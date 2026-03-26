@@ -26,7 +26,7 @@ ShopVista kurgusal e-ticaret şirketi için çok dilli (Türkçe + İngilizce) m
 │   ├── document_processor.py      # Doküman işleme ve chunking pipeline
 │   ├── vectorstore.py             # Embedding ve ChromaDB vektör veritabanı
 │   ├── rag_pipeline.py            # RAG pipeline (retrieval + Gemini LLM)
-│   ├── conversation_manager.py    # Konuşma geçmişi bellek yönetimi (Task 6)
+│   ├── conversation_manager.py    # Konuşma geçmişi bellek yönetimi
 │   ├── api_key_rotator.py         # Google API 429 hataları için Round-Robin rotasyon
 │   ├── eval_llm_wrapper.py        # Ragas için LangChain Gemini LLM sarmalayıcısı
 │   └── eval_embed_wrapper.py      # Ragas için LangChain HuggingFace sarmalayıcısı
@@ -149,7 +149,7 @@ Chunk metadata yapısı:
   - Bilgi yoksa müşteri hizmetlerine yönlendir
   - Cevabın sonunda kaynak dokümanları belirt
 
-### Ragas İle Performans Testleri (Task 5)
+### Ragas İle Performans Testleri
 - Sistem kalitesini ölçmek adına RAGAS (v0.4.3) tercih edildi. Langchain sarmalayıcıları olarak Pydantic temelli bağımsız yapılar yazıldı (`eval_llm_wrapper.py`, `eval_embed_wrapper.py`). 
 - **Veri Seti:** Karışık, Edge-case ve Dokümanlarda bulunmayan zor sorular içeren bir `test_set.json` (20 Soru) manuel yaratıldı.
 - RAGAS'ın *Asenkron API Rate Limit* hatalarını önlemek adına `RunConfig(max_workers=1)` kurularak limitasyon senkronize sağlandı.

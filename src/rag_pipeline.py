@@ -5,7 +5,7 @@ Retrieval-Augmented Generation pipeline for multi-language customer support.
 
 Flow: Question → Language Detection → Embedding + Retrieval → Prompt → LLM → Answer
 LLM    : Google Gemini 2.5 Flash Lite
-Vector : ChromaDB (from Task 3)
+Vector : ChromaDB 
 """
 
 import logging
